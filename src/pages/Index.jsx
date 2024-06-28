@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import Image from "next/image";
+
 
 const Index = () => {
   return (
@@ -15,7 +15,7 @@ const Index = () => {
 
       <main className="flex flex-col items-center mt-10 space-y-8">
         <div className="w-full flex justify-center mt-10">
-          <Image
+          <img
             src="/images/kayak-on-ocean.jpg"
             alt="Kayak on the ocean"
             width={800}
